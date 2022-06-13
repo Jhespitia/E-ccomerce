@@ -17,9 +17,11 @@ const Footer = () => {
                 <a 
                 className='instagram'
                 href="https://www.instagram.com">
+                target="blank"
                 <i className="fa-brands fa-instagram-square"></i></a>
                 
-                <a href="/#/">
+                <a href="//www.whatsapp.com">
+                target="blank"
                 <i className="whatsapp fa-brands fa-whatsapp-square"></i></a>
             </div>
             <div>
