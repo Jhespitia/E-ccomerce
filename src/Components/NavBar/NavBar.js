@@ -55,8 +55,8 @@ const NavBar = ({ categories, selectCategory }) => {
         <div className="container-fluid">
           <div className='navbar-brand'>
             <img className='logo-img' src={market} alt=""/>
-            <a className="jl" href="/home">JL</a>
-            <a className='shop' href="/home">SHOP</a>
+            <a className="jl" href="/">JL</a>
+            <a className='shop' href="/">SHOP</a>
           </div>
           <button
             className="navbar-toggler"
@@ -130,7 +130,7 @@ const NavBar = ({ categories, selectCategory }) => {
                     ))
                   }
                   <div className="dropdown-divider"></div>
-                  <a className="dropdown-item" href="/home">HOME</a>
+                  <a className="dropdown-item" href="/">HOME</a>
                 </div>
               </div>
             </li>
