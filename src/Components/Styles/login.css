@@ -1,0 +1,57 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.login-card{
+    width: 350px;
+    margin: 40px auto;
+    padding: 20px 40px;
+}
+
+.test-card{
+    width: 250px !important;
+    height: 120px;
+    margin: 20px auto !important;
+    color: rgb(148, 2, 2);
+    background-color: rgba(255, 0, 0, 0.586);
+    border-radius: 10px;   
+}
+.test{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.data-email{
+    margin:0;
+    padding:0;
+}
+.data-pass{
+    margin:0;
+    padding:0;
+}
+.bt-login{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    margin: 10PX auto;
+    width: 100%;
+    cursor: pointer;
+}
+.form-text{
+    display: flex;
+    justify-content: center;
+}
+.txt-dont{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.txt-sign{
+    margin-left: 10px;
+    color: rgb(148, 2, 2)!important;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,226 @@
+.bigt{
+    margin-left: 20px;
+}
+.product-title{
+    display: flex!important;
+    justify-content: center!important;
+    margin-top: 30px;
+}
+.carousel {
+    position: absolute;
+    display: flex;
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;  
+}
+
+.ima{
+    width: 100%;
+    height: 25vh;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.carousel-control-next {
+    right: 10px!important;
+}
+.carousel-control-prev {
+    left: -20px!important;
+}
+
+.carousel-control-next-icon {
+    background-color: rgba(17, 16, 16, 0.57);
+    border-radius: 25px 25px;
+    height: 70px !important; 
+}
+.carousel-control-prev-icon {
+    background-color: rgba(17, 16, 16, 0.57);
+    border-radius: 25px;
+    height: 70px !important; 
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: black !important;;
+}
+.detail{
+    margin: 0 auto;
+    width: 300px;
+}
+.card-header{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.info{
+    margin: 20px;
+}
+.bt-detail{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.similar-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.similar-card{
+    margin: auto;
+    width: 350px!important;
+   
+}
+
+/*TABLETS*/
+@media (min-width: 768px) {
+    .carousel {
+        width: 500px;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+    }
+    .ima{
+        width: 100%;
+        height: 30vh;
+        object-fit: contain;
+        margin-top: 50px;
+    }
+    .detail{
+        width: 500px;
+    }
+    .card-header{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+    }
+    .info{
+        margin: 20px;
+    }
+    .bt-detail{
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 200px;
+    }
+}
+
+/*LAPTOPS*/
+@media screen and (min-width: 1024px) {
+    .carousel {
+        width: 500px;
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        left: -250px; 
+        margin-top: 70px;
+    }
+    .ima{
+        width: 100%;
+        height: 30vh;
+        object-fit: contain;
+        margin-top: 30px;
+    }
+    .detail{
+        margin-top: -300px;
+        margin-left: 55%;
+        width: 400px;
+    }
+    .card-header{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+    }
+    .info{
+        margin: 20px;
+    }
+    .bt-detail{
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 200px;
+    }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1280px) {
+    .carousel {
+        width: 600px;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        left: -300px; 
+        margin-top: 70px;
+    }
+    .ima{
+        width: 100%;
+        height: 40vh;
+        object-fit: contain;
+        margin-top: 50px;
+    }
+    .detail{
+        margin-top: -400px;
+        margin-left: 55%;
+        width: 500px;
+    }
+    .card-header{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+    }
+    .info{
+        margin: 20px;
+    }
+    .bt-detail{
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 200px;
+    }
+}
+/*BIGGER DESKTOP*/
+@media screen and (min-width: 1420px) {
+    .carousel {
+        width: 600px;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        left: -300px; 
+        margin-top: 70px;
+    }
+    .ima{
+        width: 100%;
+        height: 30vh;
+        object-fit: contain;
+        margin-top: 50px;
+    }
+    .detail{
+        margin-top: -400px;
+        margin-left: 55%;
+        width: 600px;
+    }
+    .card-header{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+    }
+    .info{
+        margin: 20px;
+    }
+    .bt-detail{
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 200px;
+    }
+}
+    
+    
+
+
+
+

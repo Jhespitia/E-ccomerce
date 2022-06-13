@@ -1,0 +1,80 @@
+.card-side{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   background-color:rgba(198, 197, 197, 0.369);
+   cursor: pointer;
+}
+.side-brand{
+    font-size: 12px;
+    padding-top: 10px;
+    margin-left: 10px;
+    color: rgb(162, 160, 160);
+}
+.remove{
+    display: flex;
+    margin : 0 auto;
+    width: 35px;  
+}
+
+.side-title{
+    display: flex!important;
+    justify-content: center;
+    margin: 10px auto!important;
+    font-weight: bolder;
+}
+.linea{
+    margin-top: 5px;
+}
+.side-quantity{
+    margin-top: -25px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.side-price{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -25px;
+    margin-right: 30px;
+}
+.subtotal{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin: 10px auto;
+    font-weight: bolder;
+    background-color:rgba(30, 28, 28, 0.685);
+    border-radius: 5px;
+    padding: 5px;
+}
+.side-footer{
+    height:130px;
+    background-color:rgba(30, 28, 28, 0.685);
+}
+.total{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: -25px;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+    
+}
+.side-btn{
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    margin: 10px auto!important;
+
+}

@@ -1,0 +1,39 @@
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(30, 28, 28, 0.685);
+    margin-top: 10%;
+}
+.create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px; 
+    
+}
+.facebook{
+    font-size: 30px;
+    color: rgb(171, 63, 63);
+}
+.instagram{
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(171, 63, 63);
+}
+.whatsapp{
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(171, 63, 63);
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}

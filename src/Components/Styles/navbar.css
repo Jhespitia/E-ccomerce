@@ -1,0 +1,133 @@
+.navbar{
+    width: 100%;
+    background-color:rgba(30, 28, 28, 0.685) !important;
+}
+.logo-img{
+    width: 50px;
+}
+.navbar-brand{
+    font-size: 30px!important;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.jl{
+    text-decoration: none;
+}
+.shop{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(149, 2, 2);
+}
+
+.dropdown-item{
+    cursor: pointer;  
+}
+
+.dropdown-menu.show {
+    position: absolute;
+    display: flex!;
+    margin-right: -30px!important;
+    background: rgba(0, 0, 0, 0.785);
+}
+.navbar-dark .navbar-toggler-icon {
+    display: none!important;
+}
+
+.navbar-toggler {
+    background-image: url('../Assets/Images/menu.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    border-color: transparent!important;
+}
+
+a.nav-link{
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+a.nav-link.active{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.stats{
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+    cursor: pointer;
+}
+.homei{
+    width: 30px;
+    height: 30px;
+    margin-top: -10px; 
+}
+
+.user{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    
+}
+.files{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px
+}
+.cart{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px
+}
+.category{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.logout{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px
+}
+
+.nav-item::marker {
+    display: none!important;
+    color:transparent;
+}
+.nav-item{
+    margin-top: -30px;
+}
+
+.header-side{
+    background-color: rgba(30, 28, 28, 0.685)!important;
+}
+
+.sidebar{
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(90deg,#1a2a6c,#b21f1f,#fdbb2d) !important;
+}
+
+
+
+

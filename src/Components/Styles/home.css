@@ -1,0 +1,88 @@
+.g-4, .gy-4 {
+    margin-left: 20px!important;
+    margin-right: 20px!important;
+}
+.search{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    margin:50px auto!important;
+    width: 200px!important;
+}
+
+.btn{
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.513)!important;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card-body{
+    height: 80px;
+}
+.card-img{
+    width: 100%;
+    height: 30vh;
+    object-fit: contain;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:white;
+    border-radius: 7px 7px 0px 0px!important;
+}
+.card-title {
+    margin-top: -10px!important;
+}
+
+.img-over{
+    opacity: 0;
+    position: absolute;
+    transition: .8s;
+    background: #fff;
+}
+
+.card-img:hover, .img-over-1{
+    opacity: 1;
+}
+span{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+.btn-cart{
+    display: flex;
+    margin-left: 200px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.513)!important;
+}
+.line{
+    margin-top: 10px!important;     
+    padding: 0!important;
+    border: 1px solid rgba(0, 0, 0, 0.513)!important;
+}
+
+@media screen and (max-width: 768px) {
+
+    .search{
+        margin: 0 auto!important;
+        width: 90%!important;
+        justify-content: space-between!important;
+    }
+
+}
+/*MOBILES*/
+@media screen and (min-width: 480px) {
+
+    .search{
+        margin-top: 20px!important;
+        width: 550px!important;
+        justify-content: space-between!important;
+    }
+
+}
+

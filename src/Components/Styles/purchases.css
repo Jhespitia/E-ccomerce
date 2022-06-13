@@ -1,0 +1,39 @@
+.purchases{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card-p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.purchase-card{
+    margin-bottom: 30px;
+    width: 100%;
+    background-color:rgba(198, 197, 197, 0.369);
+    border-radius: 5px;
+    padding: 20px;
+}
+.purchase-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.purchase-product{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.purchase-price{
+    font-weight: 300;
+    font-size: 15px;
+   
+}
+.purchase-unit{
+    font-weight: 300;
+    font-size: 15px;
+    
+}
